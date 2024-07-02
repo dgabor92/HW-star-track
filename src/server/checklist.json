@@ -1,0 +1,175 @@
+{
+  "checklist": [
+    {
+      "id": 1,
+      "driveNumber": "DRIVE-001",
+      "name": "Drive 1",
+      "checkOccasion": [
+        {
+          "id": 1,
+          "title": "Pre-Drive",
+          "code": "PRE_DRIVE",
+          "checkItem": [
+            {
+              "title": "Check Engine Oil",
+              "code": "CHECK_ENGINE_OIL",
+              "status": "CHECKED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Transmission Oil",
+              "code": "CHECK_TRANSMISSION_OIL",
+              "status": "FAILED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Brake Fluid",
+              "code": "CHECK_BRAKE_FLUID",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": "Brake fluid is low"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Post-Drive",
+          "code": "POST_DRIVE",
+          "checkItem": [
+            {
+              "title": "Check Engine Oil",
+              "code": "CHECK_ENGINE_OIL",
+              "status": "CHECKED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Transmission Oil",
+              "code": "CHECK_TRANSMISSION_OIL",
+              "status": "NOT_CHECKED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Brake Fluid",
+              "code": "CHECK_BRAKE_FLUID",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": "Brake fluid is low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "driveNumber": "DRIVE-002",
+      "name": "Drive 2",
+      "checkOccasion": [
+        {
+          "id": 1,
+          "title": "Pre-Drive",
+          "code": "PRE_DRIVE",
+          "checkItem": [
+            {
+              "title": "Check Engine Oil",
+              "code": "CHECK_ENGINE_OIL",
+              "status": "CHECKED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Transmission Oil",
+              "code": "CHECK_TRANSMISSION_OIL",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Brake Fluid",
+              "code": "CHECK_BRAKE_FLUID",
+              "status": "FAILED",
+              "checkResultRemark": "Brake fluid is low"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Post-Drive",
+          "code": "POST_DRIVE",
+          "checkItem": [
+            {
+              "title": "Check Engine Oil",
+              "code": "CHECK_ENGINE_OIL",
+              "status": "CHECKED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Transmission Oil",
+              "code": "CHECK_TRANSMISSION_OIL",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Brake Fluid",
+              "code": "CHECK_BRAKE_FLUID",
+              "status": "FAILED",
+              "checkResultRemark": "Brake fluid is low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "driveNumber": "DRIVE-003",
+      "name": "Drive 3",
+      "checkOccasion": [
+        {
+          "id": 1,
+          "title": "Pre-Drive",
+          "code": "PRE_DRIVE",
+          "checkItem": [
+            {
+              "title": "Check Engine Oil",
+              "code": "CHECK_ENGINE_OIL",
+              "status": "CHECKED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Transmission Oil",
+              "code": "CHECK_TRANSMISSION_OIL",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Brake Fluid",
+              "code": "CHECK_BRAKE_FLUID",
+              "status": "FAILED",
+              "checkResultRemark": "Brake fluid is low"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Post-Drive",
+          "code": "POST_DRIVE",
+          "checkItem": [
+            {
+              "title": "Check Engine Oil",
+              "code": "CHECK_ENGINE_OIL",
+              "status": "CHECKED",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Transmission Oil",
+              "code": "CHECK_TRANSMISSION_OIL",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": ""
+            },
+            {
+              "title": "Check Brake Fluid",
+              "code": "CHECK_BRAKE_FLUID",
+              "status": "FAILED",
+              "checkResultRemark": "Brake fluid is low"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
