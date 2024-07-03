@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    container_name: frontend
+    stdin_open: true
+    volumes:
+      - ./:/var/www/html/start_track
+      - /var/www/html/start_track/node_modules
+    ports:
+      - 5173:5173
+    networks:
+      - star_track_network
+    command: npm run dev
+
+networks:
+  star_track_network:
+    external: true

@@ -1,0 +1,12 @@
+FROM node:latest
+
+WORKDIR /var/www/html/start_track
+
+COPY package.json /var/www/html/start_track
+
+RUN npm install
+
+COPY . /var/www/html/start_track
+
+EXPOSE 5173
+CMD ["npm", "run", "dev"]
