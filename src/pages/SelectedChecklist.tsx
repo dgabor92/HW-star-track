@@ -6,6 +6,7 @@ import { useState } from "react";
 import { notification } from "antd";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import CustomInput from "@/components/CustomInput";
 
 const SelectedChecklist = () => {
   const queryClient = useQueryClient();
@@ -123,7 +124,7 @@ const SelectedChecklist = () => {
                 </label>
                 <div className="mt-2">
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-400 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                    <input
+                    <CustomInput
                       type="text"
                       name="driveNumber"
                       id="driveNumber"
@@ -150,7 +151,7 @@ const SelectedChecklist = () => {
                 </label>
                 <div className="mt-2">
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-400 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                    <input
+                    <CustomInput
                       type="text"
                       name="name"
                       id="name"
@@ -221,7 +222,7 @@ const SelectedChecklist = () => {
                               </div>
 
                               <div className=" mt-2 flex rounded-md shadow-sm ring-1 ring-inset ring-gray-400 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                                <input
+                                <CustomInput
                                   type="text"
                                   name={`${item.code}_remark_${occasionIndex}_${itemIndex}`}
                                   id={`${item.code}_remark_${occasionIndex}_${itemIndex}`}

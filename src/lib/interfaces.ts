@@ -27,3 +27,15 @@ export interface CheckItem {
   status: "CHECKED" | "NOT_RELEVANT" | "FAILED" | "NOT_CHECKED";
   checkResultRemark?: string;
 }
+
+export interface CustomInputProps {
+  type: string;
+  name: string;
+  id: string;
+  autoComplete?: string;
+  required?: boolean;
+  value: string | undefined;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  className: string;
+  placeholder?: string;
+}
